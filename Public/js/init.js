@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".detalhes").hide();$("#detalhe2").click(function(){$("#button-img-desativado").hide();$("#button-img").removeAttr("hidden");$(".detalhes").toggle(300);$("#detalhe-fechar").click(function(){$(".detalhes").toggle(300)})})})
